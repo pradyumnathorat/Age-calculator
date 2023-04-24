@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(28, 35, 226);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(227, 209, 209);
+    min-height: 100px;
+    width: 520px;
+    margin: 100px auto;
+    border-radius: 6px;
+    height: auto;
+    border-radius: 1.5rem;
+}
+
+.base {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+
+.base h4 {
+    font-size:26px;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: normal;
+    color : navy;
+    background: white;
+    padding:4px;
+}
+
+.block {
+    width : 135px;
+    padding : 5px 20px;
+    margin-left: 20px;
+    display: inline;
+    float: left;
+}
+
+.title {
+    font-size:20px;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color : rgb(81, 81, 235);
+    word-spacing: 2.7px;
+}
+
+input[type="text"] {
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid rgb(51, 46, 46);
+    border-radius: 5px;
+    padding-left: 10px;
+   font-size: 18px;
+}
+
+.button {
+    width: 150px;
+    margin-left : 35%;
+    margin-top : 40px;
+    outline: none;
+    border : none;
+    border-radius: 2px;
+    background-color: blue;
+    padding: 14px 16px;
+    color : white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    
+}
+
+.button:hover {
+    background-color: rgb(32, 32, 157);
+}
+
+.age {
+    display: block;
+    margin : 10px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-size:23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: navy;
+    padding: 10px;
+    padding-left: 2.5rem;
+}
